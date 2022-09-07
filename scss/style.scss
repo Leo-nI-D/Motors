@@ -103,8 +103,24 @@ a {
         text-transform: uppercase;
         background: #fff;
         padding: 12px;
-        img{
+
+        img {
             margin-left: 5px;
+        }
+    }
+}
+
+.tour-list {
+    li {
+        display: flex;
+    }
+
+    .wrapper {
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1rem;
+            letter-spacing: 0.03em;
+            color: $textcolor;
         }
     }
 }

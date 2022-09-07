@@ -96,3 +96,13 @@ a {
 .hero a img {
   margin-left: 5px;
 }
+
+.tour-list li {
+  display: flex;
+}
+.tour-list .wrapper p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  color: #414141;
+}
